@@ -1,0 +1,31 @@
+body {
+    display: grid;
+    grid-template-areas:
+        "cabecalho cabecalho cabecalho"
+        "principal principal lateral"
+        "rodape rodape rodape";
+    grid-gap: 20px;
+    grid-template-rows: auto 90vh auto;
+    grid-template-columns: auto auto auto;
+
+}
+
+.cabecalho {
+    grid-area: cabecalho;
+    background-color: #eaccf0;
+}
+
+.principal {
+    grid-area: principal;
+    background-color: #d0e1f2;
+}
+
+.lateral {
+    grid-area: lateral;
+    background-color: #e8c8bc;
+}
+
+.rodape {
+    grid-area: rodape;
+    background-color: #b4dbbb;
+}
